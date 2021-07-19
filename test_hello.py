@@ -2,7 +2,7 @@
 
 import unittest
 
-from hello import say_hello
+from helloer.hello import say_hello
 
 
 class TestHello(unittest.TestCase):
