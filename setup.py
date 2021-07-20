@@ -2,5 +2,6 @@ import setuptools
 
 setuptools.setup(
     name='helloer',
-    packages=['helloer'],
+    version='1.0',
+    packages=setuptools.find_packages(),
 )
